@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "topic-modelling"
+version = "0.1.0"
+description = ""
+authors = ["sixiannn <sixiannn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+hdbscan = "^0.8.37"
+pandas = "^2.2.2"
+pyarrow = "^16.1.0"
+fastparquet = "^2024.5.0"
+sumy = "^0.11.0"
+umap-learn = "^0.5.6"
+sentence-transformers = "2.7.0"
+bertopic = "0.16.2"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
